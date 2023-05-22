@@ -2,11 +2,11 @@
     <div *ngIf="!showLogin" class="sign-up">
         <h1>Seller Sign up</h1>
         <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form">
-            <input type="text" class="form-input" name="firstName" id="firstName" placeholder="Enter first name"
+            <input type="text" class="form-input" name="firstName" placeholder="Enter first name"
                 ngModel />
-            <input type="text" class="form-input" name="lastName" id="lastName" placeholder="Enter last name" ngModel />
-            <input type="text" class="form-input" name="email" id="email" placeholder="Enter email" ngModel />
-            <input type="text" class="form-input" name="userName" id="userName" placeholder="Enter user name" ngModel />
+            <input type="text" class="form-input" name="lastName"  placeholder="Enter last name" ngModel />
+            <input type="text" class="form-input" name="email"  placeholder="Enter email" ngModel />
+            <input type="text" class="form-input" name="userName"  placeholder="Enter user name" ngModel />
             <input type="password" class="form-input" name="password" id="password" placeholder="Enter password" ngModel />
             <button class="form-button">Sign Up</button>
             <a class="auth-toggle-link" (click)="openLogin()">Already have account? Click for Login</a>
@@ -16,8 +16,8 @@
         <h1>Seller Login</h1>
         <p class="error-p">{{authError}}</p>
         <form #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.value)" class="common-form">
-            <input type="text" class="form-input" name="userName" id="userName" placeholder="Enter user name" ngModel />
-            <input type="password" class="form-input" name="password" id="password" placeholder="Enter password" ngModel />
+            <input type="text" class="form-input" name="userName"  placeholder="Enter user name" ngModel />
+            <input type="password" class="form-input" name="password"  placeholder="Enter password" ngModel />
             <button class="form-button">Login</button>
             <a class="auth-toggle-link" (click)="openSignUp()">Don't have account? Click for Sign-up</a>
         </form>
