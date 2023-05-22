@@ -1,0 +1,49 @@
+{
+  "seller": [
+    {
+      "firstName": "dinesh",
+      "lastName": "rathod",
+      "email": "drathod@test.com",
+      "userName": "drathod",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "firstName": "Rushi",
+      "lastName": "Test",
+      "email": "rushi@test.com",
+      "userName": "trushi",
+      "password": "123",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "Samsung M30",
+      "price": "15000",
+      "category": "Mobile",
+      "color": "Black",
+      "description": "Testing Add Product",
+      "image": "https://i.blogs.es/ce6746/galaxy-m30s-6/840_560.jpg",
+      "id": 1
+    },
+    {
+      "name": "iPhone 14",
+      "price": "100000",
+      "category": "Mobile",
+      "color": "Black",
+      "description": "This is IPhone 14",
+      "image": "https://www.telstra.com.au/content/dam/tcom/devices/mobile/mhdwhst-14pr/deeppurple/front.png",
+      "id": 2
+    },
+    {
+      "name": "HP 15s-dy3501TU Laptop (11th Gen Core i3/ 8GB/ 512GB SSD/ Win11 Home)",
+      "price": "45500",
+      "category": "Laptop",
+      "color": "silver",
+      "description": "New Hp Laptop",
+      "image": "https://cdn1.smartprix.com/rx-iFRdDiSwU-w1200-h1200/hp-15s-dy3501tu-lapt.webp",
+      "id": 3
+    }
+  ]
+}
