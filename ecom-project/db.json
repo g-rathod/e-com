@@ -37,12 +37,12 @@
       "id": 2
     },
     {
-      "name": "HP 15s-dy3501TU Laptop (11th Gen Core i3/ 8GB/ 512GB SSD/ Win11 Home)",
-      "price": "45500",
-      "category": "Laptop",
-      "color": "silver",
-      "description": "New Hp Laptop",
-      "image": "https://cdn1.smartprix.com/rx-iFRdDiSwU-w1200-h1200/hp-15s-dy3501tu-lapt.webp",
+      "name": "Dell laptop",
+      "price": "43000",
+      "category": "laptop",
+      "color": "black",
+      "description": "laptop for sell",
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/vostro-notebooks/15-3510/media-gallery/archive/dv3510nt_cnb_05000ff090_gy.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=606&qlt=100,1&resMode=sharp2&size=606,402&chrss=full",
       "id": 3
     }
   ]
