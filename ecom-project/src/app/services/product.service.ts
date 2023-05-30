@@ -22,4 +22,10 @@ export class ProductService {
   deleteProduct(id:number){
     return this.http.delete(this.url+'/'+id);
   }
+  getProduct(id:string){
+    return this.http.get<product>(this.url+'/'+id);
+  }
+  updateProduct(data: product){
+   return this.http.put<product>(this.url+'/'+data.id,data);
+  }
 }
