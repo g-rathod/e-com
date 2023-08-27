@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "6lG3aRmv4S/szFfvgbZSv+fBq2/yrhZElPxz6R1XJb4zX2kqWrK8wfOQLw1+klN7yIhijalgI6bJJsV7QXb0DQ==",
+  "success": false,
+  "projectFilePath": "C:\\Demo\\e-com\\IdentityWebApi\\IdentityWebApi.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.OpenApi. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Swashbuckle.AspNetCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
