@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lCAfbCGFeYPCQKYrX05inSSnv1TR+HTYHxuCbiefmYOZJfKXsyowl2BpKW69BjUYV9HcM3u6yZ9n5kapuSgL4A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dell\\Downloads\\Samples-main\\Samples-main\\IdentityServer\\v6\\Quickstarts\\4_EntityFramework\\src\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
